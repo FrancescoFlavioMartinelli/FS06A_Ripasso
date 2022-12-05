@@ -1,0 +1,3 @@
+<h2>Counter: {{c}}</h2>
+<app-child [testo]="'+'" (aumentaEventParam)="aumentaCounter($event)" ></app-child>
+<app-child [testo]="'-'" (aumentaEventParam)="diminuisciCounter($event)" ></app-child>
