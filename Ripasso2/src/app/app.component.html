@@ -1,0 +1,8 @@
+<nav>
+  <ul>
+    <li routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">HOME</li>
+    <li routerLink="/second" routerLinkActive="active">SECOND</li>
+    <li [routerLink]="['first', 'child']" routerLinkActive="active">FIRST/CHILD</li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
